@@ -19,6 +19,13 @@ namespace Blockbuster
         public Genre Category { get; set; }
         public int RunTime { get; set; }
         public List<string> Scenes { get; set; }
+        public virtual void PrintInfo()
+        {
+            Console.WriteLine($"Title: {Title}; Genre: {Category}; Run Time: {RunTime}");
+        }
+        public virtual void PrintScenes()
+        {
 
+        }
     }
 }
