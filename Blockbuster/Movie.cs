@@ -25,6 +25,14 @@ namespace Blockbuster
         }
         public virtual void PrintScenes()
         {
+            for(int i = 0; i < Scenes.Count; i++)
+            {
+                Console.WriteLine(Scenes[i]);
+            }
+        }
+
+        public virtual void Play()
+        {
 
         }
     }
